@@ -38,7 +38,7 @@ Authorization: <token>
 → 200 OK [<value1>, <value2>, ...] или 200 OK [], или 400 Bad Request
 
 # Удаление записи/записей по ключу
-DELETE /storage/<key> <value> HTTP/1.1
+DELETE /storage/<key> HTTP/1.1
 Authorization: <token>
 → 204 No content
 
